@@ -123,7 +123,6 @@ public class WriteView {
 
     private static Optional<Boolean> changeFlagAddState(Scanner scanner) {
         while (true) {
-            Optional<Boolean> answer = Optional.empty();
             System.out.println(optionWriteMenu);
             System.out.print("Input your choice: ");
             String choice = scanner.nextLine();
